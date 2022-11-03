@@ -9,6 +9,10 @@
   background: white;
 
 }
+th,td
+{
+  border: 1px solid black;
+}
 .topRow{
   background-color: orange;
 }
