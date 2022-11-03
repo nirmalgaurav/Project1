@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+  <link rel="stylesheet" href="C:\Users\DELL\Desktop\CryptoTracker\app.css">
+  <title>Crypto Tracker</title>
+
+</head>
+
+<body>
+  <div class="container">
+      <div class = "row justify-content-center">
+        <h1 class="col-md-7 text-center mt-2"> Crypto Tracker </h1>
+        <h4 class="col-md-7 text-center mt-2">Made By Gaurav Nirmal </h4>
+        <div class="col-md-6 justify-content-center main fix">
+            <div class="col-10">
+              <form action="" id="searchForm">
+                <div class="form-row">
+                  <div class="col-12 form-group">
+                    <label for="xyz">
+                      <b> Coin Type </b>
+                    </label>
+                    <select name="coinType" class="form-control m-2" id="xyz">
+                      <option value="">Choose Here</option>
+                        <option value="bitcoin">BitCoin - INR</option>
+                        <option value="dogecoin">DogeCoin - INR</option>
+                        <option value="ethereum">Ethereum - INR</option>
+                        <option value="polkadot">Polkadot - INR</option>
+                        <option value="tether">Tether - INR</option>
+                    </select>
+                  </div>
+                </div>
+              <button type="submit" class="col-12  btn btn-primary m-2"> Get Price </button>
+              </form>
+            </div>
+        </div>
+        <div class="col-md-7 text-center row justify-content-center align-items-center" style="margin-top:50px;">
+          <table class="p-4 col-md-12 tbl" border="1"  id="tableResult">
+
+
+          </table>
+        </div>
+      </div>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/axios@1.1.2/dist/axios.min.js"></script>
+  <script src="C:\Users\DELL\Desktop\CryptoTracker\app.js"></script>
+</body>
+
+</html>
