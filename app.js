@@ -25,10 +25,10 @@ const fetchPrice = async(cType) =>{
   const change1hour = r.data.coin.priceChange1h;
   const rank = r.data.coin.rank;
   res.innerHTML = `<tr class="topRow">
-    <td>
+    <th>
     <b>Properties</b>
-    </td>
-    <td><b>Values</b></td>
+    </th>
+    <th><b>Values</b></th>
   </tr>
 
   <tr>
